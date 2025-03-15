@@ -1,11 +1,47 @@
 body {
     background-color: green;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 768px;
+    margin-inline: auto;
+}
+
+.banner{
+    width: 100%;
 }
 
 footer{
     background-color: white;
     color: black;
     text-align: center;
-    padding: 25px
+    padding: 25px;
+    display: block;
+}
+
+nav{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn{
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid white;
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 15px;
+    display: block;
+    max-width: 220px;
+    margin-inline: auto;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    background-color: brown;
 }
